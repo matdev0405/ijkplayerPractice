@@ -13,6 +13,20 @@
 		CEE5A02426AFB835006A3E80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE5A02226AFB835006A3E80 /* Main.storyboard */; };
 		CEE5A02626AFB838006A3E80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE5A02526AFB838006A3E80 /* Assets.xcassets */; };
 		CEE5A02926AFB838006A3E80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE5A02726AFB838006A3E80 /* LaunchScreen.storyboard */; };
+		CEE5A05526AFBA3A006A3E80 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE5A05426AFBA3A006A3E80 /* AudioToolbox.framework */; };
+		CEE5A05726AFBA45006A3E80 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE5A05626AFBA45006A3E80 /* AVFoundation.framework */; };
+		CEE5A05926AFBA4F006A3E80 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE5A05826AFBA4F006A3E80 /* CoreGraphics.framework */; };
+		CEE5A05B26AFBA56006A3E80 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE5A05A26AFBA56006A3E80 /* CoreMedia.framework */; };
+		CEE5A05D26AFBA5D006A3E80 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE5A05C26AFBA5D006A3E80 /* CoreVideo.framework */; };
+		CEE5A05F26AFBA78006A3E80 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE5A05E26AFBA78006A3E80 /* libbz2.tbd */; };
+		CEE5A06226AFBA81006A3E80 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE5A06126AFBA81006A3E80 /* libz.tbd */; };
+		CEE5A06526AFBA93006A3E80 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE5A06426AFBA93006A3E80 /* MediaPlayer.framework */; };
+		CEE5A06726AFBA9E006A3E80 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE5A06626AFBA9E006A3E80 /* MobileCoreServices.framework */; };
+		CEE5A06926AFBAA7006A3E80 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE5A06826AFBAA7006A3E80 /* OpenGLES.framework */; };
+		CEE5A06B26AFBAAE006A3E80 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE5A06A26AFBAAE006A3E80 /* QuartzCore.framework */; };
+		CEE5A06D26AFBAB5006A3E80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE5A06C26AFBAB5006A3E80 /* UIKit.framework */; };
+		CEE5A06F26AFBABF006A3E80 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE5A06E26AFBABF006A3E80 /* VideoToolbox.framework */; };
+		CEFCAEF226B12B9700580264 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFCAEF126B12B9700580264 /* IJKMediaFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,20 @@
 		CEE5A02526AFB838006A3E80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE5A02826AFB838006A3E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE5A02A26AFB838006A3E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE5A05426AFBA3A006A3E80 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CEE5A05626AFBA45006A3E80 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CEE5A05826AFBA4F006A3E80 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEE5A05A26AFBA56006A3E80 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CEE5A05C26AFBA5D006A3E80 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		CEE5A05E26AFBA78006A3E80 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		CEE5A06126AFBA81006A3E80 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		CEE5A06426AFBA93006A3E80 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		CEE5A06626AFBA9E006A3E80 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CEE5A06826AFBAA7006A3E80 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CEE5A06A26AFBAAE006A3E80 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CEE5A06C26AFBAB5006A3E80 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEE5A06E26AFBABF006A3E80 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		CEFCAEF126B12B9700580264 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +59,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE5A06F26AFBABF006A3E80 /* VideoToolbox.framework in Frameworks */,
+				CEE5A06D26AFBAB5006A3E80 /* UIKit.framework in Frameworks */,
+				CEE5A06B26AFBAAE006A3E80 /* QuartzCore.framework in Frameworks */,
+				CEE5A06926AFBAA7006A3E80 /* OpenGLES.framework in Frameworks */,
+				CEE5A06726AFBA9E006A3E80 /* MobileCoreServices.framework in Frameworks */,
+				CEE5A06526AFBA93006A3E80 /* MediaPlayer.framework in Frameworks */,
+				CEE5A06226AFBA81006A3E80 /* libz.tbd in Frameworks */,
+				CEE5A05F26AFBA78006A3E80 /* libbz2.tbd in Frameworks */,
+				CEE5A05D26AFBA5D006A3E80 /* CoreVideo.framework in Frameworks */,
+				CEE5A05B26AFBA56006A3E80 /* CoreMedia.framework in Frameworks */,
+				CEE5A05926AFBA4F006A3E80 /* CoreGraphics.framework in Frameworks */,
+				CEE5A05726AFBA45006A3E80 /* AVFoundation.framework in Frameworks */,
+				CEE5A05526AFBA3A006A3E80 /* AudioToolbox.framework in Frameworks */,
+				CEFCAEF226B12B9700580264 /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +84,7 @@
 			children = (
 				CEE5A01B26AFB835006A3E80 /* ijkplayerPractice */,
 				CEE5A01A26AFB835006A3E80 /* Products */,
+				CEE5A05326AFBA3A006A3E80 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +99,7 @@
 		CEE5A01B26AFB835006A3E80 /* ijkplayerPractice */ = {
 			isa = PBXGroup;
 			children = (
+				CEFCAEF126B12B9700580264 /* IJKMediaFramework.framework */,
 				CEE5A01C26AFB835006A3E80 /* AppDelegate.swift */,
 				CEE5A01E26AFB835006A3E80 /* SceneDelegate.swift */,
 				CEE5A02026AFB835006A3E80 /* ViewController.swift */,
@@ -65,6 +109,26 @@
 				CEE5A02A26AFB838006A3E80 /* Info.plist */,
 			);
 			path = ijkplayerPractice;
+			sourceTree = "<group>";
+		};
+		CEE5A05326AFBA3A006A3E80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEE5A06E26AFBABF006A3E80 /* VideoToolbox.framework */,
+				CEE5A06C26AFBAB5006A3E80 /* UIKit.framework */,
+				CEE5A06A26AFBAAE006A3E80 /* QuartzCore.framework */,
+				CEE5A06826AFBAA7006A3E80 /* OpenGLES.framework */,
+				CEE5A06626AFBA9E006A3E80 /* MobileCoreServices.framework */,
+				CEE5A06426AFBA93006A3E80 /* MediaPlayer.framework */,
+				CEE5A06126AFBA81006A3E80 /* libz.tbd */,
+				CEE5A05E26AFBA78006A3E80 /* libbz2.tbd */,
+				CEE5A05C26AFBA5D006A3E80 /* CoreVideo.framework */,
+				CEE5A05A26AFBA56006A3E80 /* CoreMedia.framework */,
+				CEE5A05826AFBA4F006A3E80 /* CoreGraphics.framework */,
+				CEE5A05626AFBA45006A3E80 /* AVFoundation.framework */,
+				CEE5A05426AFBA3A006A3E80 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +287,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = NO;
 			};
 			name = Debug;
 		};
@@ -274,6 +339,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -288,15 +354,24 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZVP3S24TSD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ijkplayerPractice",
+				);
 				INFOPLIST_FILE = ijkplayerPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ijkplayerPractice",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = tw.com.wonderwall.liveStreamApp.ijkplayerPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Debug;
 		};
@@ -307,15 +382,24 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZVP3S24TSD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ijkplayerPractice",
+				);
 				INFOPLIST_FILE = ijkplayerPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ijkplayerPractice",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = tw.com.wonderwall.liveStreamApp.ijkplayerPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Release;
 		};
